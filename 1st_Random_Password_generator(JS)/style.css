@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #e5e5e5;
+}
+input,
+button {
+  margin-top: 10px;
+}
+.container {
+  text-align: center;
+  width: 50%;
+  box-shadow: 0px 0px 8px black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 1.5rem;
+}
+
+.container h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#copyPassword {
+  font-size: 22px;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+#passwordOutput {
+  width: 80%;
+  padding: 8px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-bottom: 0.5rem;
+}
+
+#generateBtn {
+  padding: 10px;
+  background: linear-gradient(75deg, rgb(124, 255, 124), rgb(255, 255, 150));
+  color: black;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0px 0px 4px black;
+  transition: all 0.8s ease;
+}
+
+#generateBtn:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+}
+
+.form label{
+    padding: 0.4rem;
+    font-size: 18px;
+}
+
+#lengthInput{
+    margin: 0.5rem;
+}
