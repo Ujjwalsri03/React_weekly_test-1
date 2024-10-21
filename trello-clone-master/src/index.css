@@ -1,0 +1,127 @@
+/* Navbar */
+.navbar {
+  background-color: #4a90e2;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+/* Board */
+.board {
+  display: flex;
+  padding: 20px;
+  background-color: #f0f4f7;
+}
+
+/* List */
+.list {
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-icon, .delete-icon {
+  cursor: pointer;
+  color: #4a90e2;
+}
+
+.add-card input {
+  width: 80%;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.add-card button {
+  padding: 5px 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.new-list input {
+  width: 80%;
+  padding: 5px;
+}
+
+.new-list button {
+  padding: 5px 10px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.edit-card-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+/* index.css */
+
+/* Styling the Add Card button */
+.add-card-button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 4px; /* Slightly rounded corners */
+  padding: 10px 15px; /* Padding for the button */
+  font-size: 14px; /* Adjust font size */
+  cursor: pointer; /* Show pointer on hover */
+  margin-top: 10px; /* Add space above the button */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for Add Card button */
+.add-card-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Optional: disabled button style */
+.add-card-button:disabled {
+  background-color: #cccccc; /* Gray when disabled */
+  cursor: not-allowed; /* Not allowed cursor when disabled */
+}
+
+/* Optional: Input field for adding a card */
+.add-card input {
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
